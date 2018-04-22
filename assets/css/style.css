@@ -67,8 +67,7 @@ img.beach {
     font-size: 18px;
     line-height: 1.5em;
     margin-bottom: 2em;
-  
-}
+  }
 
 p {
   font-size: 18px;
@@ -85,17 +84,58 @@ p {
       width: 960px;
       color: #4aaaa5;
       font-family: 'Georgia', 'Times New Roman', Times, serif;
-
-
-
-      
   }
 
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #cccccc;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+  
+  }  
+
+  
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+}
 
 
-
-
-
+  .main-container h2{
+    font-size: 25px;
+    font-weight: bold;
+    width: 960px;
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    height: 28px;
+  }
 
 
 
@@ -114,12 +154,7 @@ p {
     background-color: #666666;
     border-top: 7px solid #4aaaa5;
   
-  }  
-
-
-
-
-
+  }
 
 
 
