@@ -1,34 +1,49 @@
 body {
-  font-family: 'Arial', 'Helvetica', sans-serif;
-  width: '960px';
-  font-size: 18px;
-  background: #666666;
-  color: #4aaaa5;
+  background-image: url(vintage-concrete.png);
+  margin: 0 auto;
+}
+
+.header {
+  height: 65px; 
+  width: 100%;
+
+}
+
+.inner-header {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 30px;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
 }
 
 h1 {
   font-family: 'Georgia', 'Times New Roman', Times, serif;
-  background-color: #ffffff   
+  display: inline-block;
+  height: 100%;
+  padding: 20px;
+ 
 }
 
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0.10em 100px;
+  padding: 20px;
   overflow: hidden;
   background-color: white;
   float: right;
-  border: 1px solid #e7e7e7;
-  display: block;
-  line-height: 35px;
- 
+  line-height: 35px; 
+  font-size: 15px;
 }
 
 
 li a {
-  color: #666;
-  padding: 14px 16px;
+  color: #cccccc;
+  padding: 20px;
   text-decoration: none;
 }
 
@@ -36,6 +51,45 @@ li {
   display: inline;
 }
 
+.container{
+	width: 960px;
+  margin: 0 auto; 
+}
+
+img.beach {
+	float: left;
+	padding: 0 1em 1em 0;
+	width: 165px;
+	height: 145px;
+}
+
+.container{
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+  
+}
+
+p {
+  font-size: 18px;
+	line-height: 1.5em;
+  margin-bottom: 2em;
+
+  }
+.container h1 {
+      font-size: 25px;
+      font-weight: bold;
+      padding-bottom: 1em;
+      margin-bottom: 0.8em;
+      border-bottom: 2px solid #dddddd;
+      width: 960px;
+      color: #4aaaa5;
+      font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+
+
+      
+  }
 
 
 
@@ -46,6 +100,21 @@ li {
 
 
 
+
+
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #cccccc;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+  
+  }  
 
 
 
